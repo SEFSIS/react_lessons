@@ -1,0 +1,9 @@
+.Album{
+    min-height: 100px;
+    color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
