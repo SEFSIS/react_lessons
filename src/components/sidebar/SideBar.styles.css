@@ -1,0 +1,27 @@
+.side-bar{
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 400px;
+    background-color: mediumslateblue;
+}
+.side-bar a{
+    width:90%;
+    text-decoration: none;
+    color:black;
+    display:block;
+    padding:20px;
+    background-color: deeppink;
+}
+.side-bar a[class='active']{
+    width:90%;
+    text-decoration: none;
+    display:block;
+    padding:20px;
+    background-color: dodgerblue;
+}
+
