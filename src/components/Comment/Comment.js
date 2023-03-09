@@ -11,7 +11,7 @@ const Comment = ({comment}) => {
         <div>name:{name}</div>
         <div>email:{email}</div>
         <div>body:{body}</div>
-        <button onClick={()=> navigate(postId.toString())}> Details</button>
+        <button onClick={()=> navigate(postId.toString())}>Get Post</button>
     </div>);
 };
 export {Comment};
